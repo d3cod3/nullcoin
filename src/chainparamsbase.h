@@ -9,8 +9,8 @@
 #include <string>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoin-cli and bitcoind)
- * of a given instance of the Bitcoin system.
+ * CBaseChainParams defines the base parameters (shared between nullcoin-cli and nullcoind)
+ * of a given instance of the Nullcoin system.
  */
 class CBaseChainParams
 {
