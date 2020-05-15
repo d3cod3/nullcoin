@@ -1,4 +1,4 @@
-/* src/config/bitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/nullcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BITCOIN_CONFIG_H
 

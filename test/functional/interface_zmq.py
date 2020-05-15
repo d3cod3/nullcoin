@@ -132,7 +132,7 @@ class ZMQTest (BitcoinTestFramework):
 
     def test_reorg(self):
         import zmq
-        address = 'tcp://127.0.0.1:28333'
+        address = 'tcp://127.0.0.1:28647'
         socket = self.ctx.socket(zmq.SUB)
         socket.set(zmq.RCVTIMEO, 60000)
         hashblock = ZMQSubscriber(socket, b'hashblock')

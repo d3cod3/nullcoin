@@ -1,5 +1,5 @@
-/* src/config/bitcoin-config.h.  Generated from bitcoin-config.h.in by configure.  */
-/* src/config/bitcoin-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/nullcoin-config.h.  Generated from nullcoin-config.h.in by configure.  */
+/* src/config/nullcoin-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef BITCOIN_CONFIG_H
 
@@ -358,7 +358,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/bitcoin/bitcoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/nullcoin/nullcoin/issues"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Bitcoin Core"
@@ -367,10 +367,10 @@
 #define PACKAGE_STRING "Bitcoin Core 0.20.0rc1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "bitcoin"
+#define PACKAGE_TARNAME "nullcoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://bitcoincore.org/"
+#define PACKAGE_URL "https://nullcoincore.org/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.20.0rc1"
