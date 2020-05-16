@@ -130,7 +130,6 @@ test/cache/*
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
 libnullcoinconsensus.pc
 contrib/devtools/split-debug.sh
 
