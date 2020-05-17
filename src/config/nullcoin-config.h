@@ -30,10 +30,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Nullcoin Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Nullcoin Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2020
@@ -358,13 +358,13 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/nullcoin/nullcoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/d3cod3/nullcoin/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Bitcoin Core"
+#define PACKAGE_NAME "Nullcoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Bitcoin Core 0.20.0rc1"
+#define PACKAGE_STRING "Nullcoin Core 0.20.0rc1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "nullcoin"
