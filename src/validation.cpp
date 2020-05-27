@@ -1218,6 +1218,16 @@ bool ReadRawBlockFromDisk(std::vector<uint8_t>& block, const CBlockIndex* pindex
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
+
+    // PREMINE OPTION
+    if(ACTIVATE_PREMINE_OPTION){
+      if(nHeight < PREMINE_BLOCKS){
+        CAmount nSubsidy = (PREMINE_AMOUNT/PREMINE_BLOCKS) * COIN;
+        return nSubsidy;
+      }
+    }
+
+
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
     // Force block reward to zero when right shift is undefined.
     if (halvings >= 64)

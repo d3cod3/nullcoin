@@ -128,6 +128,13 @@ static const int MAX_UNCONNECTING_HEADERS = 10;
 /** Default for -stopatheight */
 static const int DEFAULT_STOPATHEIGHT = 0;
 
+
+/** NULLCOIN CUSTOM VARS */
+static const bool ACTIVATE_PREMINE_OPTION = false;
+static const int PREMINE_BLOCKS = 100;
+static const int PREMINE_AMOUNT = 100000;
+
+
 struct BlockHasher
 {
     // this used to call `GetCheapHash()` in uint256, which was later moved; the
