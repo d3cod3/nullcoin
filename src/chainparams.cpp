@@ -116,7 +116,8 @@ public:
         // release ASAP to avoid it where possible.
         //vSeeds.emplace_back("seed.nullcoin.sipa.be"); // Pieter Wuille, only supports x1, x5, x9, and xd
 
-        // ADD SEEDS -- TODO
+        // ADD SEEDS
+        vSeeds.emplace_back("nullcoin.ddns.net");
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,113);
